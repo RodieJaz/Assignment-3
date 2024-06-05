@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF298C0E2C10845700F4D9B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C0D2C10845700F4D9B1 /* main.cpp */; };
+		FF298C702C10849F00F4D9B1 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C152C10849F00F4D9B1 /* Room.cpp */; };
+		FF298C712C10849F00F4D9B1 /* NullPassage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C172C10849F00F4D9B1 /* NullPassage.cpp */; };
+		FF298C722C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C192C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp */; };
+		FF298C732C10849F00F4D9B1 /* NullRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C1B2C10849F00F4D9B1 /* NullRoom.cpp */; };
+		FF298C742C10849F00F4D9B1 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C1C2C10849F00F4D9B1 /* Player.cpp */; };
+		FF298C752C10849F00F4D9B1 /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C1E2C10849F00F4D9B1 /* Location.cpp */; };
+		FF298C762C10849F00F4D9B1 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C232C10849F00F4D9B1 /* GameObject.cpp */; };
+		FF298C772C10849F00F4D9B1 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C242C10849F00F4D9B1 /* Item.cpp */; };
+		FF298C782C10849F00F4D9B1 /* Passage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C252C10849F00F4D9B1 /* Passage.cpp */; };
+		FF298C792C10849F00F4D9B1 /* CMakeCCompilerId.c in Sources */ = {isa = PBXBuildFile; fileRef = FF298C382C10849F00F4D9B1 /* CMakeCCompilerId.c */; };
+		FF298C7A2C10849F00F4D9B1 /* CMakeCCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C392C10849F00F4D9B1 /* CMakeCCompilerId.o */; };
+		FF298C7B2C10849F00F4D9B1 /* CMakeCXXCompilerId.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C3B2C10849F00F4D9B1 /* CMakeCXXCompilerId.cpp */; };
+		FF298C7C2C10849F00F4D9B1 /* CMakeCXXCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C3C2C10849F00F4D9B1 /* CMakeCXXCompilerId.o */; };
+		FF298C7D2C10849F00F4D9B1 /* Character.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C442C10849F00F4D9B1 /* Character.cpp.o */; };
+		FF298C7E2C10849F00F4D9B1 /* DefaultEnterCommand.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C452C10849F00F4D9B1 /* DefaultEnterCommand.cpp.o */; };
+		FF298C7F2C10849F00F4D9B1 /* GameObject.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C462C10849F00F4D9B1 /* GameObject.cpp.o */; };
+		FF298C802C10849F00F4D9B1 /* Item.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C472C10849F00F4D9B1 /* Item.cpp.o */; };
+		FF298C812C10849F00F4D9B1 /* Location.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C482C10849F00F4D9B1 /* Location.cpp.o */; };
+		FF298C822C10849F00F4D9B1 /* main.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C492C10849F00F4D9B1 /* main.cpp.o */; };
+		FF298C832C10849F00F4D9B1 /* NullCommand.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C4A2C10849F00F4D9B1 /* NullCommand.cpp.o */; };
+		FF298C842C10849F00F4D9B1 /* NullPassage.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C4B2C10849F00F4D9B1 /* NullPassage.cpp.o */; };
+		FF298C852C10849F00F4D9B1 /* NullRoom.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C4C2C10849F00F4D9B1 /* NullRoom.cpp.o */; };
+		FF298C862C10849F00F4D9B1 /* Passage.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C4D2C10849F00F4D9B1 /* Passage.cpp.o */; };
+		FF298C872C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C4E2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp.o */; };
+		FF298C882C10849F00F4D9B1 /* Player.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C4F2C10849F00F4D9B1 /* Player.cpp.o */; };
+		FF298C892C10849F00F4D9B1 /* Room.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C502C10849F00F4D9B1 /* Room.cpp.o */; };
+		FF298C8A2C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C512C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp.o */; };
+		FF298C8B2C10849F00F4D9B1 /* Wall.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C522C10849F00F4D9B1 /* Wall.cpp.o */; };
+		FF298C8C2C10849F00F4D9B1 /* WallEnterCommand.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C532C10849F00F4D9B1 /* WallEnterCommand.cpp.o */; };
+		FF298C8D2C10849F00F4D9B1 /* ZOOrkEngine.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FF298C542C10849F00F4D9B1 /* ZOOrkEngine.cpp.o */; };
+		FF298C8E2C10849F00F4D9B1 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C682C10849F00F4D9B1 /* Character.cpp */; };
+		FF298C8F2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C6A2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp */; };
+		FF298C902C10849F00F4D9B1 /* ZOOrkEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C6D2C10849F00F4D9B1 /* ZOOrkEngine.cpp */; };
+		FF298C912C10849F00F4D9B1 /* NullCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF298C6F2C10849F00F4D9B1 /* NullCommand.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF298C082C10845700F4D9B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF298C0A2C10845700F4D9B1 /* Assignment 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF298C0D2C10845700F4D9B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FF298C142C10849F00F4D9B1 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		FF298C152C10849F00F4D9B1 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		FF298C162C10849F00F4D9B1 /* Passage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passage.h; sourceTree = "<group>"; };
+		FF298C172C10849F00F4D9B1 /* NullPassage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullPassage.cpp; sourceTree = "<group>"; };
+		FF298C182C10849F00F4D9B1 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		FF298C192C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomDefaultEnterCommand.cpp; sourceTree = "<group>"; };
+		FF298C1A2C10849F00F4D9B1 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		FF298C1B2C10849F00F4D9B1 /* NullRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullRoom.cpp; sourceTree = "<group>"; };
+		FF298C1C2C10849F00F4D9B1 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		FF298C1D2C10849F00F4D9B1 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		FF298C1E2C10849F00F4D9B1 /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		FF298C1F2C10849F00F4D9B1 /* NullPassage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullPassage.h; sourceTree = "<group>"; };
+		FF298C202C10849F00F4D9B1 /* RoomDefaultEnterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDefaultEnterCommand.h; sourceTree = "<group>"; };
+		FF298C212C10849F00F4D9B1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		FF298C222C10849F00F4D9B1 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		FF298C232C10849F00F4D9B1 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		FF298C242C10849F00F4D9B1 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		FF298C252C10849F00F4D9B1 /* Passage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Passage.cpp; sourceTree = "<group>"; };
+		FF298C262C10849F00F4D9B1 /* NullCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullCommand.h; sourceTree = "<group>"; };
+		FF298C272C10849F00F4D9B1 /* NullRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullRoom.h; sourceTree = "<group>"; };
+		FF298C282C10849F00F4D9B1 /* cache-v2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cache-v2"; sourceTree = "<group>"; };
+		FF298C292C10849F00F4D9B1 /* cmakeFiles-v1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cmakeFiles-v1"; sourceTree = "<group>"; };
+		FF298C2A2C10849F00F4D9B1 /* codemodel-v2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "codemodel-v2"; sourceTree = "<group>"; };
+		FF298C2B2C10849F00F4D9B1 /* toolchains-v1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "toolchains-v1"; sourceTree = "<group>"; };
+		FF298C2D2C10849F00F4D9B1 /* cache-v2-2a480cd6cd2a84ea7564.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cache-v2-2a480cd6cd2a84ea7564.json"; sourceTree = "<group>"; };
+		FF298C2E2C10849F00F4D9B1 /* cmakeFiles-v1-904a34ca58edcc74adfa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cmakeFiles-v1-904a34ca58edcc74adfa.json"; sourceTree = "<group>"; };
+		FF298C2F2C10849F00F4D9B1 /* codemodel-v2-058ad41432d655f17479.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "codemodel-v2-058ad41432d655f17479.json"; sourceTree = "<group>"; };
+		FF298C302C10849F00F4D9B1 /* directory-.-Debug-f5ebdc15457944623624.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "directory-.-Debug-f5ebdc15457944623624.json"; sourceTree = "<group>"; };
+		FF298C312C10849F00F4D9B1 /* index-2023-05-07T16-48-21-0723.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "index-2023-05-07T16-48-21-0723.json"; sourceTree = "<group>"; };
+		FF298C322C10849F00F4D9B1 /* target-ZOOrk-Debug-847f2769dfa6efe5425e.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "target-ZOOrk-Debug-847f2769dfa6efe5425e.json"; sourceTree = "<group>"; };
+		FF298C332C10849F00F4D9B1 /* toolchains-v1-230eadfadbd316ec1251.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "toolchains-v1-230eadfadbd316ec1251.json"; sourceTree = "<group>"; };
+		FF298C382C10849F00F4D9B1 /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		FF298C392C10849F00F4D9B1 /* CMakeCCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCCompilerId.o; sourceTree = "<group>"; };
+		FF298C3B2C10849F00F4D9B1 /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		FF298C3C2C10849F00F4D9B1 /* CMakeCXXCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCXXCompilerId.o; sourceTree = "<group>"; };
+		FF298C3E2C10849F00F4D9B1 /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		FF298C3F2C10849F00F4D9B1 /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		FF298C402C10849F00F4D9B1 /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		FF298C412C10849F00F4D9B1 /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		FF298C422C10849F00F4D9B1 /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		FF298C442C10849F00F4D9B1 /* Character.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Character.cpp.o; sourceTree = "<group>"; };
+		FF298C452C10849F00F4D9B1 /* DefaultEnterCommand.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = DefaultEnterCommand.cpp.o; sourceTree = "<group>"; };
+		FF298C462C10849F00F4D9B1 /* GameObject.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GameObject.cpp.o; sourceTree = "<group>"; };
+		FF298C472C10849F00F4D9B1 /* Item.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Item.cpp.o; sourceTree = "<group>"; };
+		FF298C482C10849F00F4D9B1 /* Location.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Location.cpp.o; sourceTree = "<group>"; };
+		FF298C492C10849F00F4D9B1 /* main.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.cpp.o; sourceTree = "<group>"; };
+		FF298C4A2C10849F00F4D9B1 /* NullCommand.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NullCommand.cpp.o; sourceTree = "<group>"; };
+		FF298C4B2C10849F00F4D9B1 /* NullPassage.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NullPassage.cpp.o; sourceTree = "<group>"; };
+		FF298C4C2C10849F00F4D9B1 /* NullRoom.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NullRoom.cpp.o; sourceTree = "<group>"; };
+		FF298C4D2C10849F00F4D9B1 /* Passage.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Passage.cpp.o; sourceTree = "<group>"; };
+		FF298C4E2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = PassageDefaultEnterCommand.cpp.o; sourceTree = "<group>"; };
+		FF298C4F2C10849F00F4D9B1 /* Player.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Player.cpp.o; sourceTree = "<group>"; };
+		FF298C502C10849F00F4D9B1 /* Room.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Room.cpp.o; sourceTree = "<group>"; };
+		FF298C512C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = RoomDefaultEnterCommand.cpp.o; sourceTree = "<group>"; };
+		FF298C522C10849F00F4D9B1 /* Wall.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Wall.cpp.o; sourceTree = "<group>"; };
+		FF298C532C10849F00F4D9B1 /* WallEnterCommand.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = WallEnterCommand.cpp.o; sourceTree = "<group>"; };
+		FF298C542C10849F00F4D9B1 /* ZOOrkEngine.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ZOOrkEngine.cpp.o; sourceTree = "<group>"; };
+		FF298C562C10849F00F4D9B1 /* clion-environment.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "clion-environment.txt"; sourceTree = "<group>"; };
+		FF298C572C10849F00F4D9B1 /* clion-log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "clion-log.txt"; sourceTree = "<group>"; };
+		FF298C582C10849F00F4D9B1 /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		FF298C592C10849F00F4D9B1 /* CMakeError.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeError.log; sourceTree = "<group>"; };
+		FF298C5A2C10849F00F4D9B1 /* CMakeOutput.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeOutput.log; sourceTree = "<group>"; };
+		FF298C5B2C10849F00F4D9B1 /* rules.ninja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.ninja; sourceTree = "<group>"; };
+		FF298C5C2C10849F00F4D9B1 /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		FF298C5E2C10849F00F4D9B1 /* LastTest.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LastTest.log; sourceTree = "<group>"; };
+		FF298C612C10849F00F4D9B1 /* .ninja_deps */ = {isa = PBXFileReference; lastKnownFileType = file; path = .ninja_deps; sourceTree = "<group>"; };
+		FF298C622C10849F00F4D9B1 /* .ninja_log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .ninja_log; sourceTree = "<group>"; };
+		FF298C632C10849F00F4D9B1 /* build.ninja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.ninja; sourceTree = "<group>"; };
+		FF298C642C10849F00F4D9B1 /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		FF298C652C10849F00F4D9B1 /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		FF298C662C10849F00F4D9B1 /* ZOOrk */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ZOOrk; sourceTree = "<group>"; };
+		FF298C682C10849F00F4D9B1 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		FF298C692C10849F00F4D9B1 /* ZOOrkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOOrkEngine.h; sourceTree = "<group>"; };
+		FF298C6A2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassageDefaultEnterCommand.cpp; sourceTree = "<group>"; };
+		FF298C6B2C10849F00F4D9B1 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		FF298C6C2C10849F00F4D9B1 /* PassageDefaultEnterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassageDefaultEnterCommand.h; sourceTree = "<group>"; };
+		FF298C6D2C10849F00F4D9B1 /* ZOOrkEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZOOrkEngine.cpp; sourceTree = "<group>"; };
+		FF298C6E2C10849F00F4D9B1 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		FF298C6F2C10849F00F4D9B1 /* NullCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullCommand.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF298C072C10845700F4D9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF298C8B2C10849F00F4D9B1 /* Wall.cpp.o in Frameworks */,
+				FF298C8C2C10849F00F4D9B1 /* WallEnterCommand.cpp.o in Frameworks */,
+				FF298C7D2C10849F00F4D9B1 /* Character.cpp.o in Frameworks */,
+				FF298C7E2C10849F00F4D9B1 /* DefaultEnterCommand.cpp.o in Frameworks */,
+				FF298C7A2C10849F00F4D9B1 /* CMakeCCompilerId.o in Frameworks */,
+				FF298C812C10849F00F4D9B1 /* Location.cpp.o in Frameworks */,
+				FF298C892C10849F00F4D9B1 /* Room.cpp.o in Frameworks */,
+				FF298C802C10849F00F4D9B1 /* Item.cpp.o in Frameworks */,
+				FF298C822C10849F00F4D9B1 /* main.cpp.o in Frameworks */,
+				FF298C842C10849F00F4D9B1 /* NullPassage.cpp.o in Frameworks */,
+				FF298C862C10849F00F4D9B1 /* Passage.cpp.o in Frameworks */,
+				FF298C7C2C10849F00F4D9B1 /* CMakeCXXCompilerId.o in Frameworks */,
+				FF298C8A2C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp.o in Frameworks */,
+				FF298C882C10849F00F4D9B1 /* Player.cpp.o in Frameworks */,
+				FF298C872C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp.o in Frameworks */,
+				FF298C852C10849F00F4D9B1 /* NullRoom.cpp.o in Frameworks */,
+				FF298C7F2C10849F00F4D9B1 /* GameObject.cpp.o in Frameworks */,
+				FF298C832C10849F00F4D9B1 /* NullCommand.cpp.o in Frameworks */,
+				FF298C8D2C10849F00F4D9B1 /* ZOOrkEngine.cpp.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF298C012C10845700F4D9B1 = {
+			isa = PBXGroup;
+			children = (
+				FF298C0C2C10845700F4D9B1 /* Assignment 3 */,
+				FF298C0B2C10845700F4D9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF298C0B2C10845700F4D9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C0A2C10845700F4D9B1 /* Assignment 3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF298C0C2C10845700F4D9B1 /* Assignment 3 */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C682C10849F00F4D9B1 /* Character.cpp */,
+				FF298C6B2C10849F00F4D9B1 /* Character.h */,
+				FF298C672C10849F00F4D9B1 /* cmake-build-debug */,
+				FF298C142C10849F00F4D9B1 /* CMakeLists.txt */,
+				FF298C182C10849F00F4D9B1 /* Command.h */,
+				FF298C232C10849F00F4D9B1 /* GameObject.cpp */,
+				FF298C1D2C10849F00F4D9B1 /* GameObject.h */,
+				FF298C242C10849F00F4D9B1 /* Item.cpp */,
+				FF298C1A2C10849F00F4D9B1 /* Item.h */,
+				FF298C1E2C10849F00F4D9B1 /* Location.cpp */,
+				FF298C6E2C10849F00F4D9B1 /* Location.h */,
+				FF298C0D2C10845700F4D9B1 /* main.cpp */,
+				FF298C6F2C10849F00F4D9B1 /* NullCommand.cpp */,
+				FF298C262C10849F00F4D9B1 /* NullCommand.h */,
+				FF298C172C10849F00F4D9B1 /* NullPassage.cpp */,
+				FF298C1F2C10849F00F4D9B1 /* NullPassage.h */,
+				FF298C1B2C10849F00F4D9B1 /* NullRoom.cpp */,
+				FF298C272C10849F00F4D9B1 /* NullRoom.h */,
+				FF298C252C10849F00F4D9B1 /* Passage.cpp */,
+				FF298C162C10849F00F4D9B1 /* Passage.h */,
+				FF298C6A2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp */,
+				FF298C6C2C10849F00F4D9B1 /* PassageDefaultEnterCommand.h */,
+				FF298C1C2C10849F00F4D9B1 /* Player.cpp */,
+				FF298C212C10849F00F4D9B1 /* Player.h */,
+				FF298C152C10849F00F4D9B1 /* Room.cpp */,
+				FF298C222C10849F00F4D9B1 /* Room.h */,
+				FF298C192C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp */,
+				FF298C202C10849F00F4D9B1 /* RoomDefaultEnterCommand.h */,
+				FF298C6D2C10849F00F4D9B1 /* ZOOrkEngine.cpp */,
+				FF298C692C10849F00F4D9B1 /* ZOOrkEngine.h */,
+			);
+			path = "Assignment 3";
+			sourceTree = "<group>";
+		};
+		FF298C2C2C10849F00F4D9B1 /* query */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C282C10849F00F4D9B1 /* cache-v2 */,
+				FF298C292C10849F00F4D9B1 /* cmakeFiles-v1 */,
+				FF298C2A2C10849F00F4D9B1 /* codemodel-v2 */,
+				FF298C2B2C10849F00F4D9B1 /* toolchains-v1 */,
+			);
+			path = query;
+			sourceTree = "<group>";
+		};
+		FF298C342C10849F00F4D9B1 /* reply */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C2D2C10849F00F4D9B1 /* cache-v2-2a480cd6cd2a84ea7564.json */,
+				FF298C2E2C10849F00F4D9B1 /* cmakeFiles-v1-904a34ca58edcc74adfa.json */,
+				FF298C2F2C10849F00F4D9B1 /* codemodel-v2-058ad41432d655f17479.json */,
+				FF298C302C10849F00F4D9B1 /* directory-.-Debug-f5ebdc15457944623624.json */,
+				FF298C312C10849F00F4D9B1 /* index-2023-05-07T16-48-21-0723.json */,
+				FF298C322C10849F00F4D9B1 /* target-ZOOrk-Debug-847f2769dfa6efe5425e.json */,
+				FF298C332C10849F00F4D9B1 /* toolchains-v1-230eadfadbd316ec1251.json */,
+			);
+			path = reply;
+			sourceTree = "<group>";
+		};
+		FF298C352C10849F00F4D9B1 /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C2C2C10849F00F4D9B1 /* query */,
+				FF298C342C10849F00F4D9B1 /* reply */,
+			);
+			path = v1;
+			sourceTree = "<group>";
+		};
+		FF298C362C10849F00F4D9B1 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C352C10849F00F4D9B1 /* v1 */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		FF298C372C10849F00F4D9B1 /* .cmake */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C362C10849F00F4D9B1 /* api */,
+			);
+			path = .cmake;
+			sourceTree = "<group>";
+		};
+		FF298C3A2C10849F00F4D9B1 /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C382C10849F00F4D9B1 /* CMakeCCompilerId.c */,
+				FF298C392C10849F00F4D9B1 /* CMakeCCompilerId.o */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		FF298C3D2C10849F00F4D9B1 /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C3B2C10849F00F4D9B1 /* CMakeCXXCompilerId.cpp */,
+				FF298C3C2C10849F00F4D9B1 /* CMakeCXXCompilerId.o */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		FF298C432C10849F00F4D9B1 /* 3.23.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C3A2C10849F00F4D9B1 /* CompilerIdC */,
+				FF298C3D2C10849F00F4D9B1 /* CompilerIdCXX */,
+				FF298C3E2C10849F00F4D9B1 /* CMakeCCompiler.cmake */,
+				FF298C3F2C10849F00F4D9B1 /* CMakeCXXCompiler.cmake */,
+				FF298C402C10849F00F4D9B1 /* CMakeDetermineCompilerABI_C.bin */,
+				FF298C412C10849F00F4D9B1 /* CMakeDetermineCompilerABI_CXX.bin */,
+				FF298C422C10849F00F4D9B1 /* CMakeSystem.cmake */,
+			);
+			path = 3.23.2;
+			sourceTree = "<group>";
+		};
+		FF298C552C10849F00F4D9B1 /* ZOOrk.dir */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C442C10849F00F4D9B1 /* Character.cpp.o */,
+				FF298C452C10849F00F4D9B1 /* DefaultEnterCommand.cpp.o */,
+				FF298C462C10849F00F4D9B1 /* GameObject.cpp.o */,
+				FF298C472C10849F00F4D9B1 /* Item.cpp.o */,
+				FF298C482C10849F00F4D9B1 /* Location.cpp.o */,
+				FF298C492C10849F00F4D9B1 /* main.cpp.o */,
+				FF298C4A2C10849F00F4D9B1 /* NullCommand.cpp.o */,
+				FF298C4B2C10849F00F4D9B1 /* NullPassage.cpp.o */,
+				FF298C4C2C10849F00F4D9B1 /* NullRoom.cpp.o */,
+				FF298C4D2C10849F00F4D9B1 /* Passage.cpp.o */,
+				FF298C4E2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp.o */,
+				FF298C4F2C10849F00F4D9B1 /* Player.cpp.o */,
+				FF298C502C10849F00F4D9B1 /* Room.cpp.o */,
+				FF298C512C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp.o */,
+				FF298C522C10849F00F4D9B1 /* Wall.cpp.o */,
+				FF298C532C10849F00F4D9B1 /* WallEnterCommand.cpp.o */,
+				FF298C542C10849F00F4D9B1 /* ZOOrkEngine.cpp.o */,
+			);
+			path = ZOOrk.dir;
+			sourceTree = "<group>";
+		};
+		FF298C5D2C10849F00F4D9B1 /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C432C10849F00F4D9B1 /* 3.23.2 */,
+				FF298C552C10849F00F4D9B1 /* ZOOrk.dir */,
+				FF298C562C10849F00F4D9B1 /* clion-environment.txt */,
+				FF298C572C10849F00F4D9B1 /* clion-log.txt */,
+				FF298C582C10849F00F4D9B1 /* cmake.check_cache */,
+				FF298C592C10849F00F4D9B1 /* CMakeError.log */,
+				FF298C5A2C10849F00F4D9B1 /* CMakeOutput.log */,
+				FF298C5B2C10849F00F4D9B1 /* rules.ninja */,
+				FF298C5C2C10849F00F4D9B1 /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		FF298C5F2C10849F00F4D9B1 /* Temporary */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C5E2C10849F00F4D9B1 /* LastTest.log */,
+			);
+			path = Temporary;
+			sourceTree = "<group>";
+		};
+		FF298C602C10849F00F4D9B1 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C5F2C10849F00F4D9B1 /* Temporary */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		FF298C672C10849F00F4D9B1 /* cmake-build-debug */ = {
+			isa = PBXGroup;
+			children = (
+				FF298C372C10849F00F4D9B1 /* .cmake */,
+				FF298C5D2C10849F00F4D9B1 /* CMakeFiles */,
+				FF298C602C10849F00F4D9B1 /* Testing */,
+				FF298C612C10849F00F4D9B1 /* .ninja_deps */,
+				FF298C622C10849F00F4D9B1 /* .ninja_log */,
+				FF298C632C10849F00F4D9B1 /* build.ninja */,
+				FF298C642C10849F00F4D9B1 /* cmake_install.cmake */,
+				FF298C652C10849F00F4D9B1 /* CMakeCache.txt */,
+				FF298C662C10849F00F4D9B1 /* ZOOrk */,
+			);
+			path = "cmake-build-debug";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF298C092C10845700F4D9B1 /* Assignment 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF298C112C10845700F4D9B1 /* Build configuration list for PBXNativeTarget "Assignment 3" */;
+			buildPhases = (
+				FF298C062C10845700F4D9B1 /* Sources */,
+				FF298C072C10845700F4D9B1 /* Frameworks */,
+				FF298C082C10845700F4D9B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment 3";
+			productName = "Assignment 3";
+			productReference = FF298C0A2C10845700F4D9B1 /* Assignment 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF298C022C10845700F4D9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF298C092C10845700F4D9B1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FF298C052C10845700F4D9B1 /* Build configuration list for PBXProject "Assignment 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF298C012C10845700F4D9B1;
+			productRefGroup = FF298C0B2C10845700F4D9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF298C092C10845700F4D9B1 /* Assignment 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF298C062C10845700F4D9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF298C772C10849F00F4D9B1 /* Item.cpp in Sources */,
+				FF298C762C10849F00F4D9B1 /* GameObject.cpp in Sources */,
+				FF298C782C10849F00F4D9B1 /* Passage.cpp in Sources */,
+				FF298C7B2C10849F00F4D9B1 /* CMakeCXXCompilerId.cpp in Sources */,
+				FF298C792C10849F00F4D9B1 /* CMakeCCompilerId.c in Sources */,
+				FF298C702C10849F00F4D9B1 /* Room.cpp in Sources */,
+				FF298C732C10849F00F4D9B1 /* NullRoom.cpp in Sources */,
+				FF298C752C10849F00F4D9B1 /* Location.cpp in Sources */,
+				FF298C742C10849F00F4D9B1 /* Player.cpp in Sources */,
+				FF298C0E2C10845700F4D9B1 /* main.cpp in Sources */,
+				FF298C912C10849F00F4D9B1 /* NullCommand.cpp in Sources */,
+				FF298C712C10849F00F4D9B1 /* NullPassage.cpp in Sources */,
+				FF298C722C10849F00F4D9B1 /* RoomDefaultEnterCommand.cpp in Sources */,
+				FF298C8E2C10849F00F4D9B1 /* Character.cpp in Sources */,
+				FF298C902C10849F00F4D9B1 /* ZOOrkEngine.cpp in Sources */,
+				FF298C8F2C10849F00F4D9B1 /* PassageDefaultEnterCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF298C0F2C10845700F4D9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF298C102C10845700F4D9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF298C122C10845700F4D9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X252CPT6V2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF298C132C10845700F4D9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X252CPT6V2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF298C052C10845700F4D9B1 /* Build configuration list for PBXProject "Assignment 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF298C0F2C10845700F4D9B1 /* Debug */,
+				FF298C102C10845700F4D9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF298C112C10845700F4D9B1 /* Build configuration list for PBXNativeTarget "Assignment 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF298C122C10845700F4D9B1 /* Debug */,
+				FF298C132C10845700F4D9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF298C022C10845700F4D9B1 /* Project object */;
+}
